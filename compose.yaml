@@ -1,0 +1,24 @@
+services:
+  studio:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      LOCAL_TRUST: "0"
+      LLM_BASE_URL: http://ollama:11434/v1
+      LLM_MODEL: ${LLM_MODEL:-qwen3:8b}
+      ASR_MODEL: ${ASR_MODEL:-small}
+      WORKSPACE_TOKEN: ${WORKSPACE_TOKEN:?Set a long random WORKSPACE_TOKEN in .env}
+    volumes:
+      - studio-data:/app/data
+    restart: unless-stopped
+    depends_on:
+      - ollama
+  ollama:
+    image: ollama/ollama:0.34.1
+    volumes:
+      - ollama-models:/root/.ollama
+    restart: unless-stopped
+volumes:
+  studio-data:
+  ollama-models:

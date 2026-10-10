@@ -1,0 +1,1 @@
+{"name": "CunBo YunJian 直播剪辑工作室", "short_name": "村播云剪", "start_url": "/", "scope": "/", "display": "standalone", "background_color": "#f6f7f2", "theme_color": "#163c35", "icons": [{"src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}], "description": "录制、转写、知识库选段与自动剪辑", "lang": "zh-CN"}

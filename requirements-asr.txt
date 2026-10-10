@@ -1,0 +1,4 @@
+-r requirements.txt
+faster-whisper==1.2.1
+obsws-python==1.8.0
+av==16.0.1

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "title": "Retail livestream: seven editorial categories",
+      "kind": "rule",
+      "category": "Retail pilot",
+      "content": "Use these categories when supported by the transcript: trust endorsement, origin tracing, craftsmanship, taste test, pricing mechanism, consumption scenario, common-prosperity story. Select a self-contained explanation, demonstration or story. Do not infer a certificate, origin, price, charitable outcome or endorsement without supplied evidence. Category definitions should be refined by our reviewers after the first test. These are selection labels, not verified product facts."
+    },
+    {
+      "title": "Pilot audience and quality brief — edit before testing",
+      "kind": "rule",
+      "category": "Retail pilot",
+      "content": "Our initial audience needs clear explanations of a product and the evidence behind its claims. Prefer a useful opening, specific detail and complete ending. Avoid repeated slogans, missing context and unsupported health claims. Preserve the speaker's meaning. Review manually before publishing. Replace this starting brief with our actual audience, preferred style and duration expectations."
+    }
+  ]
+}
