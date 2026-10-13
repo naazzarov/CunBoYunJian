@@ -1,6 +1,21 @@
 'use strict';
 // Interface copy only. User knowledge, transcript text and historical plans are never translated.
 const ZH={
+"Show":"显示",
+"Hide":"隐藏",
+"Show access key":"显示访问密钥",
+"Hide access key":"隐藏访问密钥",
+"Signing in…":"正在登录…",
+
+"Good stories deserve a second life.":"好故事，值得被再次看见。",
+"Record your stream. Let your knowledge guide the cut. Keep the final say.":"录下直播，用你的知识找到精彩。最终决定，始终由你掌握。",
+"YOUR CREATIVE WORKSPACE":"你的创作工作区",
+"Welcome to your studio.":"欢迎来到你的剪辑工作室。",
+"Your name helps the team identify your reviews.":"填写昵称，方便团队识别你的审核意见。",
+"CunBo YunJian · Built for the stories worth keeping.":"村播云剪 · 留下值得被看见的故事。",
+"Your next clip starts here.":"从一场直播，剪出精彩。",
+"More clip settings":"更多剪辑设置",
+
 "Replace the template placeholders with your verified information before saving.":"请先用实际核实的资料替换模板占位文字，再保存知识卡。",
 "Analysis & finishing options":"分析与画面处理选项",
 "Douyin":"抖音","Xiaohongshu":"小红书","WeChat Channels":"视频号","Kuaishou":"快手","Bilibili":"哔哩哔哩",
